@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     const links=['Facebook','Instagram','Twitter','LinkedIn']
   return (
-    <div className='h-screen w-full font-["Founders_Grotesk_X-Condensed"] flex gap-5 p-20'>
+    <div id='insights' className='h-screen w-full font-["Founders_Grotesk_X-Condensed"] flex gap-5 p-20'>
        <div className="w-1/2 h-full flex flex-col justify-between">
        <div className="headings">
             <h1 className="text-[5vw] uppercase  font-semibold">eye-</h1>

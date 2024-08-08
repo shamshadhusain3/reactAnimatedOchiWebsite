@@ -8,5 +8,12 @@
   color: white;
 }
 .image-with-background {
+  
   filter: brightness(70%) contrast(140%);
+}
+scorll-s{
+  /* scroll-behavior: smooth; */
+}
+.img-bg{
+  background-image: url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg');
 }

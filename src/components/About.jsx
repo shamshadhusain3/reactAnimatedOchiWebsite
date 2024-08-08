@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='w-full p-20 bg-[#CDEA68] rounded-tr-3xl rounded-tl-3xl  text-black '>
+    <div id='about' className='w-full p-20 bg-[#CDEA68] rounded-tr-3xl rounded-tl-3xl  text-black '>
         <h1 className="text-[3.5vw] leading-[3.5vw] font-['Neue_Montreal'] text-black tracking-tight" >
         Ochi is a strategic partner for fast-growing tech businesses that need to raise funds, sell products, explain complex ideas, and hire great people.
         </h1>
@@ -13,7 +13,7 @@ function About() {
                 <div className="bg-white w-3 h-3  rounded-full"></div></button>
             </div>
 
-            <div className="w-1/2 md:h-[70vh] p-10 mt-10 rounded-3xl bg-[#56661d]"></div>
+            <div className="w-1/2 md:h-[70vh] p-10 mt-10 rounded-3xl bg-[url('https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg')]"></div>
 
         </div>
     </div>

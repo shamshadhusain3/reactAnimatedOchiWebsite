@@ -11,7 +11,7 @@ function Featured({img , img2,text , text2}) {
     const [isHover2, setisHover2] = useState(false);
 
   return (
-    <div className='w-full  py-20' >
+    <div id='ourwork'  className='w-full  py-20' >
         <div className="w-full py-20 px-10 border-b-[1px] border-zinc-700">
             <h1 className="text-[8vh] font-['Neue_Montreal'] leading-none tracking-tight font-semibold">Featured one</h1>
         </div>
